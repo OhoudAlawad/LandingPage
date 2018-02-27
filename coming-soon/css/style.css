@@ -98,8 +98,8 @@ header .counter {
     width: 30%;
     margin: 0 auto;
     -webkit-transform: translateY(30%);
-  -ms-transform: translateY(30%);
-  transform: translateY(30%);
+    -ms-transform: translateY(30%);
+    transform: translateY(30%);
 }
 
 .send-notification .alert, footer .alert {

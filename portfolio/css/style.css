@@ -15,63 +15,64 @@ header {
     min-height: 80vh;
 }
 
- .MainCard {
+.MainCard {
     background-color: rgba(5, 117, 230, 0.8);
     color: #ffffff;
     transform: translateY(20%);
     padding: 3% 10%;
 }
 
- .MainCard img {
+.MainCard img {
     border: 5px solid #72ace7;
     margin-bottom: 20px;
 }
 
- .MainCard h1 {
+.MainCard h1 {
     font-size: 36px;
     color: #f9f9f9;
     line-height: 50px;
     margin-bottom: 20px;
 }
 
- .MainCard h1 span {
+.MainCard h1 span {
     font-size: 24px;
 }
 
- .MainCard ul {
+.MainCard ul {
     padding: 0;
     margin-bottom: 40px;
 }
 
- .MainCard ul li {
+.MainCard ul li {
     margin-right: 10px;
 }
 
- .MainCard ul li a {
+.MainCard ul li a {
     color: #021b79;
     font-size: 24px;
 }
 
- .MainCard h2 {
+.MainCard h2 {
     font-size: 15px;
     line-height: 30px;
     font-weight: bold;
     margin-bottom: 15px;
 }
 
- .MainCard p {
+.MainCard p {
     font-size: 15px;
     line-height: 30px;
     color: #89c4ff;
     margin-bottom: 40px;
 }
 
- .MainCard>a {
+.MainCard>a {
     color: #ffffff;
     font-size: 18px;
     line-height: 32px;
     margin-bottom: 40px;
 }
+
 .navbar ul.navbar-nav li a.nav-link {
     color: #ffffff;
     font-size: 16px;
@@ -85,6 +86,7 @@ header {
     color: #0575e6;
     background-color: #ffffff;
 }
+
 .navbar.noTransparrent ul.navbar-nav li a.nav-link {
     color: #0575e6;
 }
@@ -106,6 +108,7 @@ header {
 .navbar.noTransparrent button.navbar-toggler span {
     color: #0575e6;
 }
+
 @media (max-width: 767px) {
     .navbar {
         min-height: 80px;
@@ -149,7 +152,7 @@ header {
     display: block;
 }
 
-.licence  .time-box {
+.licence .time-box {
     background-color: #ffffff;
     border: 2px solid #f4f3f3;
     padding: 20px 25px;
@@ -157,13 +160,13 @@ header {
     position: relative;
 }
 
-.licence  .time-box h4 {
+.licence .time-box h4 {
     font-size: 18px;
     line-height: 30px;
     color: #555555;
 }
 
-.licence .time-box  span {
+.licence .time-box span {
     color: #ffffff;
     background: #0575e6;
     padding: 0 5px;
@@ -228,7 +231,7 @@ header {
     text-align: left;
 }
 
-.licence .timeline li:nth-of-type(even) .time-box  span {
+.licence .timeline li:nth-of-type(even) .time-box span {
     margin-left: 0;
     margin-right: 25px;
     float: left;
@@ -258,7 +261,7 @@ header {
     padding: 150px 0;
 }
 
-.statistics  .stat p {
+.statistics .stat p {
     font-size: 24px;
     line-height: 30px;
     font-family: 'Open Sans';
@@ -266,13 +269,13 @@ header {
     margin-top: 30px;
 }
 
-.statistics  .circle canvas {
+.statistics .circle canvas {
     background-color: #eef6ff;
     border-radius: 50%;
     padding: 8px;
 }
 
-.statistics  .circle {
+.statistics .circle {
     position: relative;
 }
 
@@ -342,7 +345,8 @@ header {
     transform: scale(0.8);
     opacity: 0.5;
 }
-.gallery .work-gallery  .item {
+
+.gallery .work-gallery .item {
     transition: all 0.6s ease;
     margin-bottom: 25px;
 }
@@ -365,12 +369,12 @@ header {
     line-height: 50px;
 }
 
-.contacts  .slider {
+.contacts .slider {
     width: 65%;
     margin: 0px auto 80px;
 }
 
-.contacts  .carousel {
+.contacts .carousel {
     min-height: 250px;
     color: #b1b1b1;
 }
@@ -383,18 +387,18 @@ header {
     left: 0;
 }
 
-.contacts  .carousel-item {
+.contacts .carousel-item {
     min-height: 350px;
 }
 
-.contacts   .carousel-caption img {
+.contacts .carousel-caption img {
     position: absolute;
     top: 0;
     right: 50%;
     transform: translate(50%, -50%);
 }
 
-.contacts  .carousel-caption h3 {
+.contacts .carousel-caption h3 {
     font-size: 18px;
     color: #555555;
     margin-bottom: 15px;
@@ -405,26 +409,27 @@ header {
     color: #9c9c9c;
 }
 
-.contacts  .carousel-caption p {
+.contacts .carousel-caption p {
     font-size: 15px;
     line-height: 22px;
     color: #b1b1b1;
     margin-bottom: 25px;
 }
 
-.contacts .carousel-caption  li a {
+.contacts .carousel-caption li a {
     font-size: 24px;
     color: #b2d8fe;
 }
 
-.contacts  .carousel-caption ul {
+.contacts .carousel-caption ul {
     padding-right: 0;
 }
 
-.contacts  .carousel-caption ul li {
+.contacts .carousel-caption ul li {
     margin-right: 5px;
 }
-.contacts  .carousel-indicators li {
+
+.contacts .carousel-indicators li {
     max-width: 15px;
     height: 15px;
     border: 1px solid #0575e6;
@@ -435,30 +440,30 @@ header {
     background-color: #0575e6;
 }
 
-.contacts  .carousel-indicators {
+.contacts .carousel-indicators {
     padding-right: 0;
     margin: 0;
     bottom: 12px;
 }
 
-.contacts  .carousel-control-next, .contacts  .carousel-control-prev {
+.contacts .carousel-control-next, .contacts .carousel-control-prev {
     top: 50%;
     bottom: auto;
     width: auto;
     transform: translate(50%, -50%);
 }
 
-.contacts  .carousel-control-next i, .contacts .carousel-control-prev i {
+.contacts .carousel-control-next i, .contacts .carousel-control-prev i {
     padding: 10px 20px;
     background: #0575e6;
     border-radius: 50%;
 }
 
-.contacts  .carousel-control-prev {
+.contacts .carousel-control-prev {
     transform: translate(-50%, -50%);
 }
 
-.contacts  .contact-info {
+.contacts .contact-info {
     background-color: #ffffff;
     padding: 50px;
 }
@@ -470,7 +475,7 @@ header {
     line-height: 50px;
 }
 
-.contacts  .contact-info  input, .contacts  .contact-info  textarea {
+.contacts .contact-info input, .contacts .contact-info textarea {
     border: 2px solid #f1f1f1;
     border-radius: 3px;
     font-family: ar-font;
@@ -480,16 +485,16 @@ header {
     padding-right: 45px;
 }
 
-.contacts .contact-info  textarea {
+.contacts .contact-info textarea {
     min-height: 220px;
     max-height: 220px;
 }
 
-.contacts  .contact-info  .form-group {
+.contacts .contact-info .form-group {
     position: relative;
 }
 
-.contacts  .contact-info  .form-group:before {
+.contacts .contact-info .form-group:before {
     font-family: FontAwesome;
     position: absolute;
     top: 15px;
@@ -500,15 +505,15 @@ header {
     display: inline-block;
 }
 
-.contacts  .contact-info  .form-group:first-of-type:before {
+.contacts .contact-info .form-group:first-of-type:before {
     content: "\f007";
 }
 
-.contacts  .contact-info .form-group:nth-of-type(2):before {
+.contacts .contact-info .form-group:nth-of-type(2):before {
     content: "\f0e0";
 }
 
-.contacts  .contact-info  button {
+.contacts .contact-info button {
     font-family: ar-font;
     font-size: 24px;
     color: #0575e6;
@@ -520,22 +525,22 @@ header {
     margin-right: 15px;
 }
 
-.contacts  .contact-info .contact-us li {
+.contacts .contact-info .contact-us li {
     font-family: 'Open Sans';
     font-size: 16px;
     line-height: 30px;
     color: #0575e6;
 }
 
-.contacts  .contact-info ul {
+.contacts .contact-info ul {
     padding: 0;
 }
 
-.contacts  .contact-info .social li {
+.contacts .contact-info .social li {
     margin-right: 9px;
 }
 
-.contacts  .contact-info .social li a i {
+.contacts .contact-info .social li a i {
     background-color: #9bc8f5;
     color: #ffffff;
     border-radius: 50%;
@@ -546,11 +551,11 @@ header {
     transition: all 0.3s ease;
 }
 
-.contacts  .contact-info .social li a i:hover {
+.contacts .contact-info .social li a i:hover {
     background-color: #0575e6;
 }
 
-.contacts  .copyright p {
+.contacts .copyright p {
     font-size: 18px;
     color: #ececec;
     line-height: 77px;
@@ -569,22 +574,20 @@ header {
     .contacts .carousel .carousel-item {
         min-height: 390px;
     }
-    .contacts  .contact-info .social li a i {
+    .contacts .contact-info .social li a i {
         width: 40px;
         height: 40px;
         line-height: 40px;
     }
-    .contacts .contact-info  input, .contacts .contact-info  textarea {
+    .contacts .contact-info input, .contacts .contact-info textarea {
         font-size: 14px;
     }
 }
 
-
 @media (max-width: 767px) {
-    .licence  .time-box {
+    .licence .time-box {
         max-width: 100%;
     }
-
     .licence .timeline li:not(:first-of-type) {
         margin-top: 20px;
     }
@@ -594,6 +597,4 @@ header {
     .licence ul.timeline:before {
         height: 90%;
     }
-    
 }
-
